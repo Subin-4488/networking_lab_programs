@@ -57,7 +57,7 @@ void * sendMsg(void * arg){
             }
         }
     }
-}   //
+}   
 
 void main(){
 
