@@ -1,1 +1,0 @@
-File Transfer Protocol(FTP) is an application layer protocol that moves files between local and remote file systems. It runs on the top of TCP, like HTTP. To transfer a file, 2 TCP connections are used by FTP in parallel: control connection and data connection. 
