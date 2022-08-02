@@ -60,7 +60,7 @@ int getItemIndex(char id, int n)
 }
 
 /*
-Net edge weight inside a loop must be > 0
+Negative edges not possible
 */
 void djikstra(struct graph g)
 {
@@ -70,7 +70,7 @@ void djikstra(struct graph g)
 
     for (int i = 0; i < g.n; i++)
     {
-        c[i].cost = __INT_MAX__;
+        c[i].cost = __INT32_MAX__;
         c[i].id = g.arr[i].name;
     }
     c[0].cost = 0; // root node
